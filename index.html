@@ -13,11 +13,22 @@
 	  <link rel="stylesheet" type="text/css" href="style.css">
 	  <link rel="stylesheet" href="css/bootstrap.css">
 	  <!-- End CSS -->
+	  <!-- Start JS -->
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	  <!-- End JS -->
 	  <!-- Costum Fonts -->
 	  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<iframe></iframe>
-		<input type="text"><a type="button" class="btn btn-info">Midas!</a>
+		<iframe id="frame"></iframe>
+		<input type="text" id="link"><a type="button" id="submit" href="#" class="btn btn-info">Midas!</a>
+		<script>
+			$("#submit").on('click', function(event) {
+				event.preventDefault();
+				data = $("#link").val();
+				$("#frame").attr({
+					src: "http://"+data});
+			});
+		</script>
 	</body>
 </html>
