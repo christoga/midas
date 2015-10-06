@@ -2,7 +2,7 @@
  <html>
 	<head>
 	  <meta charset="utf-8">
-	  <meta name="keywords" content="midas, html, html5, css3, webanimation, animation">
+	  <meta name="keywords" content="midas, html, html5, php, iframe">
 	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	  <meta name="description" content="Simple Iframe using jQuery.">
 	  <meta name="author" content="Andre Christoga">
