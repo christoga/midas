@@ -1,34 +1,29 @@
 <!DOCTYPE html>
  <html>
 	<head>
-	  <!-- Start Meta -->
 	  <meta charset="utf-8">
 	  <meta name="keywords" content="midas, html, html5, css3, webanimation, animation">
 	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	  <meta name="description" content="Simple Iframe using PHP.">
+	  <meta name="description" content="Simple Iframe using jQuery.">
 	  <meta name="author" content="Andre Christoga">
-	  <!-- End Meta -->
 	  <title>Midas</title>
-	  <!-- Start CSS -->
 	  <link rel="stylesheet" type="text/css" href="style.css">
-	  <link rel="stylesheet" href="css/bootstrap.css">
-	  <!-- End CSS -->
-	  <!-- Start JS -->
+	  <link rel="stylesheet" href="bootstrap.css">
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	  <!-- End JS -->
-	  <!-- Costum Fonts -->
 	  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<iframe id="frame"></iframe>
-		<input type="text" id="link"><a type="button" id="submit" href="#" class="btn btn-info">Midas!</a>
-		<script>
-			$("#submit").on('click', function(event) {
-				event.preventDefault();
-				data = $("#link").val();
-				$("#frame").attr({
-					src: "http://"+data});
-			});
-		</script>
+		<div class="content">
+			<iframe id="frame"></iframe>
+			<input type="text" id="link"><a type="button" id="submit" class="btn btn-info">Midas!</a>
+			<script>
+				$("#submit").on('click', function(event) {
+					event.preventDefault();
+					data = $("#link").val();
+					$("#frame").attr({
+						src: "http://"+data});
+				});
+			</script> 
+		</div>
 	</body>
 </html>

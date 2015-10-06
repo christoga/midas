@@ -1,6 +1,10 @@
 # Midas
 
-Simple Iframe using PHP. :boom:
+Simple Iframe using jQuery. :boom:
+
+## Live Demo
+
+[Click here for a live demo.](http://christoga.github.io/midas)
 
 ## License
 

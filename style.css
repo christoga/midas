@@ -1,6 +1,114 @@
-body {
+/*/*body {
 	text-align: center;
 	background: #00BFA5;
-	vertical-align: middle;
 	font-family: 'Lato', sans-serif;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+html, body {
+      background-color: #333231;
+      margin: 0;
+      height: 100%;
+      overflow: hidden;
+      font-family: 'Open Sans', sans-serif;
+      color: white;
+    }
+
+    body:after {
+      content: "";
+      width: 0;
+      height: 100%;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    body {
+      text-align: center;
+      display: inline-block;
+      vertical-align: middle;
+    }
+    */
+ /*!
+ * Midas 1.0 (http://christoga.github.io/midas)
+ * Copyright 2015 Andre Christoga.
+ * Licensed under MIT (https://github.com/christoga/midas/blob/master/LICENSE)
+ */
+ body {
+ 	font-family: 'Lato', sans-serif;
+ 	text-align: center;
+ 	vertical-align: middle;
+ 	color: white;
+ 	background-color: #333231;
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    display: inline-block;
+ }
+/*! Bootstrap Buttons v3.3.5 | MIT License | https://github.com/twbs/bootstrap/blob/master/LICENSE */
+.btn-info {
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.btn-info:focus,
+.btn-info.focus {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #1b6d85;
+}
+.btn-info:hover {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+.btn-info:active,
+.btn-info.active,
+.open > .dropdown-toggle.btn-info {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+.btn-info:active:hover,
+.btn-info.active:hover,
+.open > .dropdown-toggle.btn-info:hover,
+.btn-info:active:focus,
+.btn-info.active:focus,
+.open > .dropdown-toggle.btn-info:focus,
+.btn-info:active.focus,
+.btn-info.active.focus,
+.open > .dropdown-toggle.btn-info.focus {
+  color: #fff;
+  background-color: #269abc;
+  border-color: #1b6d85;
+}
+.btn-info:active,
+.btn-info.active,
+.open > .dropdown-toggle.btn-info {
+  background-image: none;
+}
+.btn-info.disabled,
+.btn-info[disabled],
+fieldset[disabled] .btn-info,
+.btn-info.disabled:hover,
+.btn-info[disabled]:hover,
+fieldset[disabled] .btn-info:hover,
+.btn-info.disabled:focus,
+.btn-info[disabled]:focus,
+fieldset[disabled] .btn-info:focus,
+.btn-info.disabled.focus,
+.btn-info[disabled].focus,
+fieldset[disabled] .btn-info.focus,
+.btn-info.disabled:active,
+.btn-info[disabled]:active,
+fieldset[disabled] .btn-info:active,
+.btn-info.disabled.active,
+.btn-info[disabled].active,
+fieldset[disabled] .btn-info.active {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
+.btn-info .badge {
+  color: #5bc0de;
+  background-color: #fff;
 }
