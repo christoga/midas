@@ -1,6 +1,6 @@
 # Midas
 
-Simple Iframe using jQuery. :boom:
+Simple iframe browser using jQuery.
 
 ## Live Demo
 
